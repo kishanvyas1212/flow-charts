@@ -1,0 +1,206 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.0">
+  <diagram name="Page-1" id="Ahaz1X_4WNhRzO47eQlO">
+    <mxGraphModel dx="1167" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-1" value="Stripe In-Built Payment Process" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="631" height="1562" as="geometry" />
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-2" value="User Opens Signup Page" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="5uRgzRE2QM1aY03kiYGa-1">
+          <mxGeometry x="235" y="46" width="230" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-3" value="Selects Plan (One-Time or Subscription)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="5uRgzRE2QM1aY03kiYGa-1">
+          <mxGeometry x="254" y="169" width="192" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-4" value="Selects Payment Gateway: Stripe In-Built" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="5uRgzRE2QM1aY03kiYGa-1">
+          <mxGeometry x="225" y="328" width="250" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-5" value="User Fills Details: Name, Card Number, Expiry, CVV" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="5uRgzRE2QM1aY03kiYGa-1">
+          <mxGeometry x="228" y="469" width="244" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-6" value="Submit to Pay" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="5uRgzRE2QM1aY03kiYGa-1">
+          <mxGeometry x="270" y="610" width="159" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-7" value="Did Payment Succeed?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="5uRgzRE2QM1aY03kiYGa-1">
+          <mxGeometry x="246" y="733" width="208" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-8" value="Is Plan One-Time or Subscription?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="5uRgzRE2QM1aY03kiYGa-1">
+          <mxGeometry x="112" y="1038" width="207" height="207" as="geometry" />
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-9" value="Display Stripe Error and Allow Resubmission" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="5uRgzRE2QM1aY03kiYGa-1">
+          <mxGeometry x="369" y="1109" width="230" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-10" value="Redirect to Admin-Set Page" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="5uRgzRE2QM1aY03kiYGa-1">
+          <mxGeometry x="88" y="1484" width="256" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-11" value="Create Stripe Subscription for Plan" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="5uRgzRE2QM1aY03kiYGa-1">
+          <mxGeometry x="221" y="1343" width="248" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="5uRgzRE2QM1aY03kiYGa-1" source="5uRgzRE2QM1aY03kiYGa-2" target="5uRgzRE2QM1aY03kiYGa-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="5uRgzRE2QM1aY03kiYGa-1" source="5uRgzRE2QM1aY03kiYGa-3" target="5uRgzRE2QM1aY03kiYGa-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="5uRgzRE2QM1aY03kiYGa-1" source="5uRgzRE2QM1aY03kiYGa-4" target="5uRgzRE2QM1aY03kiYGa-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="5uRgzRE2QM1aY03kiYGa-1" source="5uRgzRE2QM1aY03kiYGa-5" target="5uRgzRE2QM1aY03kiYGa-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="5uRgzRE2QM1aY03kiYGa-1" source="5uRgzRE2QM1aY03kiYGa-6" target="5uRgzRE2QM1aY03kiYGa-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-17" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.06;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="5uRgzRE2QM1aY03kiYGa-1" source="5uRgzRE2QM1aY03kiYGa-7" target="5uRgzRE2QM1aY03kiYGa-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="216" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-18" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=0.94;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="5uRgzRE2QM1aY03kiYGa-1" source="5uRgzRE2QM1aY03kiYGa-7" target="5uRgzRE2QM1aY03kiYGa-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="484" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-19" value="One-Time" style="curved=1;startArrow=none;endArrow=block;exitX=0.18;exitY=1;entryX=0.35;entryY=0;rounded=0;" edge="1" parent="5uRgzRE2QM1aY03kiYGa-1" source="5uRgzRE2QM1aY03kiYGa-8" target="5uRgzRE2QM1aY03kiYGa-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="118" y="1294" />
+              <mxPoint x="118" y="1446" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-20" value="Subscription" style="curved=1;startArrow=none;endArrow=block;exitX=0.93;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="5uRgzRE2QM1aY03kiYGa-1" source="5uRgzRE2QM1aY03kiYGa-8" target="5uRgzRE2QM1aY03kiYGa-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="345" y="1294" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.7;entryY=0;rounded=0;" edge="1" parent="5uRgzRE2QM1aY03kiYGa-1" source="5uRgzRE2QM1aY03kiYGa-11" target="5uRgzRE2QM1aY03kiYGa-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="345" y="1446" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-22" value="Stripe SCA Payment Process" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1600" width="609" height="1685" as="geometry" />
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-23" value="User Opens Signup Page" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="5uRgzRE2QM1aY03kiYGa-22">
+          <mxGeometry x="227" y="46" width="230" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-24" value="Selects Plan (One-Time or Subscription)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="5uRgzRE2QM1aY03kiYGa-22">
+          <mxGeometry x="246" y="169" width="192" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-25" value="Selects Payment Gateway: Stripe SCA" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="5uRgzRE2QM1aY03kiYGa-22">
+          <mxGeometry x="217" y="328" width="250" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-26" value="Submit Form" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="5uRgzRE2QM1aY03kiYGa-22">
+          <mxGeometry x="267" y="469" width="151" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-27" value="Stripe SCA Pop-Up Opens" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="5uRgzRE2QM1aY03kiYGa-22">
+          <mxGeometry x="224" y="592" width="237" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-28" value="User Fills Credit Card Details and Submits" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="5uRgzRE2QM1aY03kiYGa-22">
+          <mxGeometry x="236" y="715" width="213" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-29" value="Did Payment Succeed?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="5uRgzRE2QM1aY03kiYGa-22">
+          <mxGeometry x="238" y="856" width="208" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-30" value="Is Plan One-Time or Subscription?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="5uRgzRE2QM1aY03kiYGa-22">
+          <mxGeometry x="112" y="1162" width="207" height="207" as="geometry" />
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-31" value="Display Stripe Error" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="5uRgzRE2QM1aY03kiYGa-22">
+          <mxGeometry x="369" y="1241" width="200" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-32" value="Redirect to Admin-Set Page" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="5uRgzRE2QM1aY03kiYGa-22">
+          <mxGeometry x="88" y="1607" width="256" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-33" value="Create Stripe Subscription for Plan" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="5uRgzRE2QM1aY03kiYGa-22">
+          <mxGeometry x="206" y="1466" width="248" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-34" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="5uRgzRE2QM1aY03kiYGa-22" source="5uRgzRE2QM1aY03kiYGa-23" target="5uRgzRE2QM1aY03kiYGa-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-35" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="5uRgzRE2QM1aY03kiYGa-22" source="5uRgzRE2QM1aY03kiYGa-24" target="5uRgzRE2QM1aY03kiYGa-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-36" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="5uRgzRE2QM1aY03kiYGa-22" source="5uRgzRE2QM1aY03kiYGa-25" target="5uRgzRE2QM1aY03kiYGa-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-37" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="5uRgzRE2QM1aY03kiYGa-22" source="5uRgzRE2QM1aY03kiYGa-26" target="5uRgzRE2QM1aY03kiYGa-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-38" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="5uRgzRE2QM1aY03kiYGa-22" source="5uRgzRE2QM1aY03kiYGa-27" target="5uRgzRE2QM1aY03kiYGa-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-39" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="5uRgzRE2QM1aY03kiYGa-22" source="5uRgzRE2QM1aY03kiYGa-28" target="5uRgzRE2QM1aY03kiYGa-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-40" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.09;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="5uRgzRE2QM1aY03kiYGa-22" source="5uRgzRE2QM1aY03kiYGa-29" target="5uRgzRE2QM1aY03kiYGa-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="216" y="1113" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-41" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=0.92;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="5uRgzRE2QM1aY03kiYGa-22" source="5uRgzRE2QM1aY03kiYGa-29" target="5uRgzRE2QM1aY03kiYGa-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="469" y="1113" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-42" value="One-Time" style="curved=1;startArrow=none;endArrow=block;exitX=0.18;exitY=1;entryX=0.35;entryY=0.01;rounded=0;" edge="1" parent="5uRgzRE2QM1aY03kiYGa-22" source="5uRgzRE2QM1aY03kiYGa-30" target="5uRgzRE2QM1aY03kiYGa-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="118" y="1418" />
+              <mxPoint x="118" y="1570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-43" value="Subscription" style="curved=1;startArrow=none;endArrow=block;exitX=0.88;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="5uRgzRE2QM1aY03kiYGa-22" source="5uRgzRE2QM1aY03kiYGa-30" target="5uRgzRE2QM1aY03kiYGa-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="1418" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uRgzRE2QM1aY03kiYGa-44" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.67;entryY=0.01;rounded=0;" edge="1" parent="5uRgzRE2QM1aY03kiYGa-22" source="5uRgzRE2QM1aY03kiYGa-33" target="5uRgzRE2QM1aY03kiYGa-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="1570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
