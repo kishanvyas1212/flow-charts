@@ -1,0 +1,53 @@
+flowchart TD
+  %% Title
+  title["Add member with adding membership plan and paid post"]
+
+  %% Legend
+  subgraph Legend
+    P1["Process"]
+    D1{"Decision"}
+    E1["End"]
+  end
+
+  %% Nodes
+  A["navigate to manager user"] -->|click on add member| B["open slide with heading add member"]
+  B -->|fill required fields| C["navigate to plan selection section"]
+  C --> D{"is multiple membership addon active?"}
+  
+  D -- yes --> D1["allow to select more than 1 membership plan for member"]
+  D1 --> E["adding plan, it will be same for one or more plans"]
+  E -->|select subscription plan| F["will display drop-down for selecting recurring cycle"]
+  F -->|select recurring cycle| G["select start date of plan"]
+  E -->|selected free or finite type or infinite type| G
+  D -- No --> H["it will allow to select only one plan"]
+  H --> E
+  
+  G --> J{"is paid post addon active?"}
+  J -- yes --> K["it will display section to select paid post and allow to select multiple paid posts to member"]
+  J -- No --> L["will not display section to select paid post"]
+  K -->|adding Paid post| M["saving member"]
+  M --> N["will close slide with success message and display member in grid"]
+  L --> M
+  
+  N -->|member details on grid| O{"does multiple membership enabled?"}
+  O -- yes --> P["icon of first letter of selected plans in grid, hover to display plan names, display plan icons for all selected plans while adding member"]
+  O -- no --> Q["display the selected plan"]
+  
+  Q --> R{"does paid post addon active?"}
+  R -- yes --> S["on grid display paid post count, display 0 if no paid post added, display number of posts selected while adding member"]
+  P --> R
+  S --> U["end"]
+
+  %% Styling
+  classDef process fill:#lightblue,stroke:#333,stroke-width:2px;
+  classDef decision fill:#ffcccb,stroke:#333,stroke-width:2px;
+  classDef endNode fill:#d3d3d3,stroke:#333,stroke-width:2px;
+
+  class A,B,C,D1,E,F,G,H,K,L,M,N,O,P,Q,R,S,U process;
+  class D,J decision;
+  class U endNode;
+  
+  %% Apply style to legend
+  class P1 process;
+  class D1 decision;
+  class E1 endNode;

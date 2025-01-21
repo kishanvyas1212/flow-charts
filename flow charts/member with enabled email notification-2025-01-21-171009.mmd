@@ -1,0 +1,45 @@
+flowchart TD
+  title[Add member with enabled email notification]
+
+  %% Nodes
+  A[navigate to manage member] -->|click on add member| B[open slide with heading add member]
+  B --> C{is there more than 2 registration forms?}
+
+  C -->|yes| D[it will display drop-down to select the form]
+  D -->|select form| E[will display fields only that are selected on the selected registration form]
+  C -->|no| F[will not display form selection drop-down and only default form, all fields will display]
+
+  E -->|click on additional fields| G[will display all the fields existing in Armember]
+  F -->|click on additional fields| G
+
+  G -->|click on save| H[will give required fields error like username, firstname, lastname, email, password]
+  H --> G
+
+  I[fill username and email] -->|click on save| J{is username or email already exist?}
+  J -->|yes| K[will give error of already existing username or email]
+  K --> I
+
+  G --> M{is email on signup without payment enabled?}
+  M -->|yes| N[should display email notification switch, default enabled]
+  N -->|remains enabled| I
+  M -->|no| O[will not display email notification switch]
+  O --> I
+
+  J -->|No| Q[will add member with filled details, selected role, user status]
+  Q --> R[slide in close with success message, member added to manage member grid]
+
+  R --> S{is email switch remained while adding member?}
+  S -->|yes| T[system will send basic signup email with no payment to email address of added member]
+  S -->|No| U[system will not send basic signup email to member]
+  U --> Z[endNode]
+  T --> Z[endNode]
+
+  %% Styling
+  classDef process fill: #a2c3fc,stroke:#333,stroke-width:2px;
+  classDef decision fill: #ffcccb,stroke:#333,stroke-width:2px;
+  classDef endNode fill:#d3d3d3,stroke:#333,stroke-width:2px;
+
+  %% Apply styles
+  class A,B,D,E,F,G,H,I,N,O,Q,R,T,U process;
+  class C,J,M,S decision;
+  class Z endNode;
