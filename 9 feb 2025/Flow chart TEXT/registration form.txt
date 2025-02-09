@@ -1,0 +1,62 @@
+graph TD
+  A[Navigate to Manage Forms] --> B[Display All Registration/Signup Forms]
+  B --> C[Display Other Forms: Login, Forgot Password, Change Password]
+  C --> D[Display Edit Profile Forms]
+
+  D --> E[Click 'Add New Registration Form']
+  E --> F[Show Pop-Up to Select Existing Form to Clone]
+  F --> G[Dropdown with All Existing Registration Forms]
+  G --> H[Select Form & Click Clone]
+
+  H --> I[Clone Form with Fields, Styling & Other Settings]
+  I --> J[Open Live Form Editor]
+
+  J --> K[Left Side: Display Presets]
+  K --> L{Is 'Template' Selected in Pop-Up?}
+  L -->|Yes| M[Display Template & Allow Selecting Existing Fields]
+  M --> N[On Add, Selected Fields & Styling Applied] --> AO
+
+  J --> O[Live Editor: Display Preset Fields]
+  O --> P[Left Side: Display All Existing Fields]
+  P --> Q[Left Side: Display Form Fields Input, Textarea, Date, etc.]
+  Q --> R[Click Form Field to Add to Form]
+  R --> S[Hover Field & Click Settings Icon]
+  S --> T[Set Field Properties: Name, Description, Placeholder, Meta Key, Restrictions] --> AO
+
+  J --> U{Is Social Feature Addon Active?}
+  U -->|Yes| V[Show 'Social Profile Fields' Button]
+  V --> W[On Click, Display Fields: Facebook, Instagram, etc.]
+  W --> X[On Add, Social Fields Appear Below Other Fields] --> AO
+
+  J --> Y[Right Side: Display Basic Form Styling & Formatting Options]
+  Y --> Z[Option to Enable Google reCAPTCHA v3]
+  Z --> AA{Is reCAPTCHA Key Set in General Settings?}
+  AA -->|Yes| AB[Allow Enabling Google reCAPTCHA] --> AO
+
+  Y --> AC[Switch: Display Login Link]
+  AC -->|Enabled| AD[Show Login Link Above Submit Button]
+  AC -->|Disabled| AE[Do Not Show Login Link] --> AO
+
+  Y --> AF[Enable Hidden Fields]
+  AF --> AG[Create Hidden Field & Set Value] --> AO
+
+  Y --> AH{Is Any Opt-in Addon Active e.g., ActiveCampaign?}
+  AH -->|Yes| AI[Show Opt-in Section]
+  AI --> AJ[Display All Configured Opt-in Options]
+  AJ --> AK[Select List to Add Member on Registration]
+
+  AK --> AL[Enable Conditional Subscription]
+  AL --> AM[Reveal Fields to Set Conditions]
+  AM --> AN[If Condition Satisfied, Add Member to Opt-in List] --> AO
+
+  AO[Click Save - Save Form with All Settings]
+
+%% Styling
+classDef process fill:#a2c3fc,stroke:#333,stroke-width:2px;
+classDef decision fill:#ffcccb,stroke:#333,stroke-width:2px;
+classDef endNode fill:#d3d3d3,stroke:#333,stroke-width:2px;
+
+%% Apply styles
+class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,AA,AB,AC,AD,AE,AF,AG,AH,AI,AJ,AK,AL,AM,AN,AO process;
+class L,AA,AH decision;
+class AO endNode;

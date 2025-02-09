@@ -1,0 +1,26 @@
+graph TD
+  A[Navigate to 'Manage Paid Post'] --> B[Display Paid Post List]
+  B --> C[Hover Over Paid Post - Show Actions]
+  
+  C --> D[Click 'View Member']
+  D --> E[Display Members with Paid Post Access]
+  E --> F[End]
+
+  C --> G[Click 'Edit Paid Post']
+  G --> H[Open 'Edit Paid Post' Page]
+  H --> I[Allow Changing Post Type & Alternative Content]
+  I --> J[Click 'Save' - Changes Apply Only to New Members]
+  J --> F[End]
+
+  C --> K[Click 'Delete Paid Post']
+  K --> L[Remove Restriction from Paid Post]
+  L --> F[End]
+  
+%% Styling
+classDef process fill:#a2c3fc,stroke:#333,stroke-width:2px;
+classDef decision fill:#ffcccb,stroke:#333,stroke-width:2px;
+classDef endNode fill:#d3d3d3,stroke:#333,stroke-width:2px;
+
+%% Apply styles
+class A,B,C,D,E,F,G,H,I,J,K,L process;
+class F endNode;

@@ -1,0 +1,248 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11">
+  <diagram name="Page-1" id="jBnXo5_i2rZoOuIllD-2">
+    <mxGraphModel dx="2100" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-1" value="Navigate to &#39;Drip Content&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="932" y="20" width="244" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-2" value="Display All Drip Rules" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="949" y="124" width="210" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-3" value="Click &#39;Add Drip Rule&#39; - Open Pop-up" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="924" y="228" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-4" value="Select Content Type" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="952" y="356" width="204" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-5" value="Display Multi-Select Dropdown for Pages" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="614" y="482" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-6" value="Display Multi-Select Dropdown for Posts" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="924" y="482" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-7" value="Display Shortcode of custom content" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1234" y="482" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-8" value="Select Membership Plans" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="936" y="610" width="237" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-9" value="Select Drip Type" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="966" y="714" width="176" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-10" value="Users Get Instant Access" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1540" width="234" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-11" value="End" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="856" y="1668" width="86" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-12" value="Display Duration Field" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="481" y="858" width="217" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-13" value="Users Get Access After Selected Duration" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="459" y="1038" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-14" value="Is Email Notification Set for Before Drip Rule?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1166" width="278" height="278" as="geometry" />
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-15" value="Trigger Email Notification Before Drip Access" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="304" y="1528" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-16" value="Proceed Without Notification" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="614" y="1528" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-17" value="Select &#39;From&#39; &amp; &#39;To&#39; Dates" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="936" y="1278" width="237" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-18" value="Users Get Access Between Selected Dates" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="924" y="1528" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-19" value="Display Duration Field" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1256" y="1278" width="217" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-20" value="Users Get Access After Selected Duration from Published Date" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1234" y="1516" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-21" value="Display Duration Field" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1566" y="1278" width="217" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-22" value="Users Get Access After Selected Duration from Last Modified Date" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1544" y="1516" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-1" target="kS1Ct00nDXrHHadCBUYl-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-2" target="kS1Ct00nDXrHHadCBUYl-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-3" target="kS1Ct00nDXrHHadCBUYl-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-26" value="Pages" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.88;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-4" target="kS1Ct00nDXrHHadCBUYl-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="744" y="446" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-27" value="Posts" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-4" target="kS1Ct00nDXrHHadCBUYl-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-28" value="Custom Content" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.88;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-4" target="kS1Ct00nDXrHHadCBUYl-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1364" y="446" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0;entryY=0.14;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-5" target="kS1Ct00nDXrHHadCBUYl-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="744" y="585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-30" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-6" target="kS1Ct00nDXrHHadCBUYl-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-31" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=1;entryY=0.14;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-7" target="kS1Ct00nDXrHHadCBUYl-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1364" y="585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-8" target="kS1Ct00nDXrHHadCBUYl-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-33" value="Immediately" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.64;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-9" target="kS1Ct00nDXrHHadCBUYl-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="137" y="813" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-34" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.45;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-10" target="kS1Ct00nDXrHHadCBUYl-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="137" y="1643" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-35" value="After Certain Time of Subscription" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.76;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-9" target="kS1Ct00nDXrHHadCBUYl-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="589" y="813" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-36" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-12" target="kS1Ct00nDXrHHadCBUYl-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-37" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-13" target="kS1Ct00nDXrHHadCBUYl-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-38" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.06;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-14" target="kS1Ct00nDXrHHadCBUYl-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="434" y="1480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-39" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=0.94;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-14" target="kS1Ct00nDXrHHadCBUYl-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="744" y="1480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-40" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.41;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-15" target="kS1Ct00nDXrHHadCBUYl-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="434" y="1643" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.23;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-16" target="kS1Ct00nDXrHHadCBUYl-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="744" y="1643" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-42" value="Specific Date Onward" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-9" target="kS1Ct00nDXrHHadCBUYl-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-43" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-17" target="kS1Ct00nDXrHHadCBUYl-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-44" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.23;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-18" target="kS1Ct00nDXrHHadCBUYl-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1054" y="1643" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-45" value="After Certain Time of Post is Published, Note: only display to Conetne type Page and Post" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.89;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-9" target="kS1Ct00nDXrHHadCBUYl-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1364" y="813" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-46" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-19" target="kS1Ct00nDXrHHadCBUYl-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-47" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.41;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-20" target="kS1Ct00nDXrHHadCBUYl-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1364" y="1643" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-48" value="After Certain Time of Post is Last Modified, Note: only display to Conetne type Page and Post" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.7;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-9" target="kS1Ct00nDXrHHadCBUYl-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1674" y="813" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-49" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-21" target="kS1Ct00nDXrHHadCBUYl-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS1Ct00nDXrHHadCBUYl-50" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.45;rounded=0;" edge="1" parent="1" source="kS1Ct00nDXrHHadCBUYl-22" target="kS1Ct00nDXrHHadCBUYl-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1674" y="1643" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

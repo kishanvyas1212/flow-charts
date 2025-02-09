@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11">
+  <diagram name="Page-1" id="r0NlPI_BnKC73tRt1rzx">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NXvmC-7GYUUTBPrU06HI-1" value="Navigate to Content Access Rules" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="20" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NXvmC-7GYUUTBPrU06HI-2" value="By Default, &#39;Pages&#39; Option Selected" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="148" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NXvmC-7GYUUTBPrU06HI-3" value="Display All Plans &amp; All Pages with Restrictions" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="276" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NXvmC-7GYUUTBPrU06HI-4" value="Allow Restriction of Pages for Plans" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="416" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NXvmC-7GYUUTBPrU06HI-5" value="Update Restriction - Immediately Applied on Frontend" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="556" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="NXvmC-7GYUUTBPrU06HI-6" value="Restrict Access on Frontend Based on Plan" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="708" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NXvmC-7GYUUTBPrU06HI-7" value="Allow Restriction of Post Types Pages, Posts, Custom Posts" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="404" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="NXvmC-7GYUUTBPrU06HI-8" value="Allow Restriction by Tags, Taxonomy, &amp; Special Pages" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="416" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NXvmC-7GYUUTBPrU06HI-9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="NXvmC-7GYUUTBPrU06HI-1" target="NXvmC-7GYUUTBPrU06HI-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NXvmC-7GYUUTBPrU06HI-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.84;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="NXvmC-7GYUUTBPrU06HI-2" target="NXvmC-7GYUUTBPrU06HI-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="251" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NXvmC-7GYUUTBPrU06HI-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="NXvmC-7GYUUTBPrU06HI-3" target="NXvmC-7GYUUTBPrU06HI-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NXvmC-7GYUUTBPrU06HI-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.19;rounded=0;" edge="1" parent="1" source="NXvmC-7GYUUTBPrU06HI-4" target="NXvmC-7GYUUTBPrU06HI-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="531" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NXvmC-7GYUUTBPrU06HI-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="NXvmC-7GYUUTBPrU06HI-5" target="NXvmC-7GYUUTBPrU06HI-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NXvmC-7GYUUTBPrU06HI-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="NXvmC-7GYUUTBPrU06HI-2" target="NXvmC-7GYUUTBPrU06HI-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NXvmC-7GYUUTBPrU06HI-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="NXvmC-7GYUUTBPrU06HI-7" target="NXvmC-7GYUUTBPrU06HI-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NXvmC-7GYUUTBPrU06HI-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.84;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="NXvmC-7GYUUTBPrU06HI-2" target="NXvmC-7GYUUTBPrU06HI-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="251" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NXvmC-7GYUUTBPrU06HI-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.19;rounded=0;" edge="1" parent="1" source="NXvmC-7GYUUTBPrU06HI-8" target="NXvmC-7GYUUTBPrU06HI-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="531" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

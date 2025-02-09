@@ -1,0 +1,43 @@
+
+graph TD
+  A[Navigate to 'Drip Content'] --> B[Display All Drip Rules]
+  B --> C[Click 'Add Drip Rule' - Open Pop-up]
+
+  C --> D[Select Content Type]
+  D -->|Pages| E[Display Multi-Select Dropdown for Pages]
+  D -->|Posts| F[Display Multi-Select Dropdown for Posts]
+  D -->|Custom Content| G[Display Shortcode of custom content]
+
+  E & F & G --> H[Select Membership Plans]
+
+  H --> I[Select Drip Type]
+  I -->|Immediately| J[Users Get Instant Access]
+  J --> X[End]
+
+  I -->|After Certain Time of Subscription| K[Display Duration Field]
+  K --> L[Users Get Access After Selected Duration]
+  L --> M{Is Email Notification Set for Before Drip Rule?}
+  M -->|Yes| N[Trigger Email Notification Before Drip Access]
+  M -->|No| O[Proceed Without Notification]
+  N & O --> X[End]
+
+  I -->|Specific Date Onward| P[Select 'From' & 'To' Dates]
+  P --> Q[Users Get Access Between Selected Dates]
+  Q --> X[End]
+
+  I -->|After Certain Time of Post is Published, Note: only display to Conetne type Page and Post| R[Display Duration Field]
+  R --> S[Users Get Access After Selected Duration from Published Date]
+  S --> X[End]
+
+  I -->|After Certain Time of Post is Last Modified, Note: only display to Conetne type Page and Post| T[Display Duration Field]
+  T --> U[Users Get Access After Selected Duration from Last Modified Date]
+  U --> X[End]
+
+  %% Styling
+classDef process fill:#a2c3fc,stroke:#333,stroke-width:2px;
+classDef decision fill:#ffcccb,stroke:#333,stroke-width:2px;
+classDef endNode fill:#d3d3d3,stroke:#333,stroke-width:2px;
+
+  %% Apply styles
+  class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U process;
+  class X endNode;

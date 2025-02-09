@@ -1,0 +1,60 @@
+graph TD
+  A[Navigate to Configure Plan + Signup Page] --> B[Click on Add New Setup]
+  B --> C{Is Paid Post Addon or Gift Addon Active?}
+  
+  C -->|Yes| D[Display Setup Type with Two Options]
+  C -->|No| E[Only Membership Plan Setup Selected]
+  E --> G
+  D --> F{Which Setup Type?}
+  F -->|Membership Plan Setup Default| G[Display All Existing Plans]
+  F -->|Paid Post Setup| HIDE[Hide Plan Selection & Add Plan Button]
+
+  G --> I[Allow Selecting Plans]
+  G --> J[Show 'Add New Plan' Button]
+
+  J --> K[Click 'Add New Plan' - Open in New Tab]
+  K --> L[Create New Plan - Auto Display in Setup Form]
+  L --> I
+
+  I & HIDE --> M[Allow Selecting Registration Form]
+  M --> N[Dropdown with Existing Registration Forms]
+  N --> O[Show 'Add New Form' Button]
+
+  O --> P[Click 'Add New Form' - Open in New Tab]
+  P --> Q[Create New Form - Auto Display in Dropdown]
+
+  Q --> R[Allow Selecting Payment Gateway]
+  R --> S[Show 'Configure More Gateways' Button]
+  S --> T[Click 'Configure More Gateways' - Open in New Tab]
+  T --> U[Configured Gateway Auto Display in Setup Form]
+  U --> R
+
+  R --> V{Subscription Plan Selected & Gateway Supports Auto-Debit?}
+  V -->|Yes| W[Reveal Auto-Debit Options]
+  W --> X[Allow Auto-Debit Only]
+  W --> Y[Allow Semi-Automatic Manual Method]
+  W --> Z[Allow Both User Selects]
+
+  X & Y & Z --> AA{Is Coupon Addon Active?}
+  AA -->|Yes| AB[Show 'Enable Coupon with Payment' Default OFF]
+  AB --> AC[If ON, Reveal 'Use Coupon as Invitation Code' Default OFF]
+
+  AC --> AD[Other Options - Change Field Labels for Frontend]
+  AD --> AE[Other Settings - Summer Text with Shortcodes]
+  AE --> AF[Shortcodes: Plan Name, Amount, Discount, Coupon Code, etc.]
+
+  AF --> AG[Styling & Formatting - Modify Setup Form Styling]
+  AG --> AH[Show 'Preview' Button]
+  AH --> AI[Click Preview - Show How Form Looks on Frontend]
+
+  AI --> AJ[Click Save - Reveal Shortcode for Setup Form]
+
+%% Styling Definitions (Must Be Below `graph TD`)
+  classDef process fill:#a2c3fc,stroke:#333,stroke-width:2px;
+  classDef decision fill:#ffcccb,stroke:#333,stroke-width:2px;
+  classDef endNode fill:#d3d3d3,stroke:#333,stroke-width:2px;
+
+%% Apply styles
+  class A,B,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,AA,AB,AC,AD,AE,AF,AG process;
+  class C,T,Y decision;
+  class AH endNode;

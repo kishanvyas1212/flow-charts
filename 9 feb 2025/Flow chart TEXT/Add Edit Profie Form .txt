@@ -1,0 +1,39 @@
+
+graph TD
+  A[Navigate to Manage Forms] --> B[Click 'Add New Profile Form']
+  B --> C[Open Pop-up - Default: 'Inherit from Existing Signup Forms' Selected]
+  
+  C --> D[Show Dropdown - Display All Existing Registration Forms]
+  D --> E[Select Form & Click 'Add' - Open Live Editor with Existing Registration Form Fields]
+  E --> Q
+  
+  C --> F{Is 'Select Template' Chosen Instead?}
+  F -->|Yes| G[Show Existing Meta Fields for Selection]
+  G --> H[Click 'Add' - Open Live Editor with Selected Fields]
+  H --> Q
+
+  E & H --> I[Left Menu: Display Preset Fields]
+  I --> J[Click Preset Field - Add to Form]
+  J --> Q
+
+  I --> K[Form Fields: Display All Types Input, Textarea, etc.]
+  K --> L[Click Field - Add to Form]
+  L --> M[Hover Over Field - Show Settings Icon]
+  M --> N[Set Field Name, Placeholder, & Other Properties]
+  N --> Q
+
+  I --> O[Right Side: Basic Options - Styling & Formatting]
+  O --> P[Advanced Options - Precise Styling & Formatting]
+  P --> Q
+
+  Q[Click 'Save' - Save Settings]
+
+%% Styling
+classDef process fill:#a2c3fc,stroke:#333,stroke-width:2px;
+classDef decision fill:#ffcccb,stroke:#333,stroke-width:2px;
+classDef endNode fill:#d3d3d3,stroke:#333,stroke-width:2px;
+
+%% Apply styles
+class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q process;
+class F decision;
+class Q endNode;

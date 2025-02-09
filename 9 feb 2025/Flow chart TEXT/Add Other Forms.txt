@@ -1,0 +1,48 @@
+
+graph TD
+  A[Navigate to Manage Forms] --> B[Click 'Add New Other Form']
+  B --> C[Open Pop-up to Select Other Form Template]
+  C --> D[Select Template - Apply Styling & Formatting]
+
+  D --> E[Open Live Editor - Display Login, Forgot & Change Password Forms]
+
+  E --> F[Right Side: Display Basic Styling & Formatting Options]
+  F --> G[Login Form Section: Show 'Remember Me' Checkbox & 'Display Registration Link' Switch Both Enabled by Default]
+  
+  G --> H{Is 'Display Registration Link' Enabled?}
+  H -->|Yes| I[Show Registration Label Field to Enter Text]
+  I --> J[Show Two Options: Modal & Redirect to Page]
+  
+  J --> K{Is 'Modal' Selected?}
+  K -->|Yes| L[Show Registration Form Selection Dropdown]
+  K -->|No| M[Show Page Dropdown for Redirection]
+
+  L & M --> N[On Click Registration Link, Perform Selected Action] --> Z
+
+  F --> O[Display Google reCAPTCHA Section]
+  O --> P{Are Credentials Added?}
+  P -->|Yes| Q[Allow Enabling Google reCAPTCHA] --> Z
+
+  F --> R[Display Messages Section]
+  R --> S[Allow Adding Custom Text for Frontend Display] --> Z
+
+  F --> T{Is Social Connect Addon Active?}
+  T -->|Yes| U[Show 'Social Connect' Option]
+  U --> V[Enable Social Login - Show Styling Options]
+  V --> W[Click 'Button Skin' - Open Pop-up to Select Social Networks]
+  W --> X[Display Configured Social Networks from General Settings]
+  X --> Y[Allow Uploading Custom Images for Social Networks]
+  Y --> AA[Show Selected Social Networks on Live Editor] --> Z
+
+  F --> AB[Advanced Options: More Styling & Formatting]
+  AB --> Z[Click Save - Save Settings]
+
+%% Styling
+classDef process fill:#a2c3fc,stroke:#333,stroke-width:2px;
+classDef decision fill:#ffcccb,stroke:#333,stroke-width:2px;
+classDef endNode fill:#d3d3d3,stroke:#333,stroke-width:2px;
+
+%% Apply styles
+class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,AA,AB process;
+class H,K,P,T decision;
+class Z endNode;

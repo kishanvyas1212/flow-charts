@@ -1,0 +1,188 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11">
+  <diagram name="Page-1" id="Xw4eg3hR050RNQz6mVrC">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CVDc9toLxJHYxU677fez-1" value="Navigate to Manage Forms" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="253" y="20" width="249" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-2" value="Click &#39;Add New Profile Form&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="248" y="124" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-3" value="Open Pop-up - Default: &#39;Inherit from Existing Signup Forms&#39; Selected" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="248" y="252" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-4" value="Show Dropdown - Display All Existing Registration Forms" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="754" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-5" value="Select Form &amp; Click &#39;Add&#39; - Open Live Editor with Existing Registration Form Fields" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="906" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-6" value="Click &#39;Save&#39; - Save Settings" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="336" y="1722" width="247" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-7" value="Is &#39;Select Template&#39; Chosen Instead?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="394" y="404" width="278" height="278" as="geometry" />
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-8" value="Show Existing Meta Fields for Selection" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="403" y="766" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-9" value="Click &#39;Add&#39; - Open Live Editor with Selected Fields" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="403" y="930" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-10" value="Left Menu: Display Preset Fields" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1082" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-11" value="Click Preset Field - Add to Form" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1582" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-12" value="Form Fields: Display All Types Input, Textarea, etc." style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1210" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-13" value="Click Field - Add to Form" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="651" y="1338" width="238" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-14" value="Hover Over Field - Show Settings Icon" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1442" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-15" value="Set Field Name, Placeholder, &amp; Other Properties" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1570" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-16" value="Right Side: Basic Options - Styling &amp; Formatting" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1442" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-17" value="Advanced Options - Precise Styling &amp; Formatting" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1582" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CVDc9toLxJHYxU677fez-1" target="CVDc9toLxJHYxU677fez-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CVDc9toLxJHYxU677fez-2" target="CVDc9toLxJHYxU677fez-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.93;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CVDc9toLxJHYxU677fez-3" target="CVDc9toLxJHYxU677fez-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="379" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CVDc9toLxJHYxU677fez-4" target="CVDc9toLxJHYxU677fez-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.44;exitY=1;entryX=0;entryY=0.15;rounded=0;" edge="1" parent="1" source="CVDc9toLxJHYxU677fez-5" target="CVDc9toLxJHYxU677fez-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="1057" />
+              <mxPoint x="130" y="1697" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CVDc9toLxJHYxU677fez-3" target="CVDc9toLxJHYxU677fez-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="533" y="379" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-24" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="CVDc9toLxJHYxU677fez-7" target="CVDc9toLxJHYxU677fez-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="CVDc9toLxJHYxU677fez-8" target="CVDc9toLxJHYxU677fez-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.09;exitY=1.01;entryX=0.16;entryY=0.01;rounded=0;" edge="1" parent="1" source="CVDc9toLxJHYxU677fez-9" target="CVDc9toLxJHYxU677fez-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="295" y="1057" />
+              <mxPoint x="295" y="1697" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.89;entryX=0;entryY=0.23;rounded=0;" edge="1" parent="1" source="CVDc9toLxJHYxU677fez-5" target="CVDc9toLxJHYxU677fez-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="388" y="1057" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.92;exitY=1.01;entryX=0.52;entryY=0.01;rounded=0;" edge="1" parent="1" source="CVDc9toLxJHYxU677fez-9" target="CVDc9toLxJHYxU677fez-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="1057" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.85;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="CVDc9toLxJHYxU677fez-10" target="CVDc9toLxJHYxU677fez-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="1185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-30" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="CVDc9toLxJHYxU677fez-11" target="CVDc9toLxJHYxU677fez-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-31" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="CVDc9toLxJHYxU677fez-10" target="CVDc9toLxJHYxU677fez-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="CVDc9toLxJHYxU677fez-12" target="CVDc9toLxJHYxU677fez-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="CVDc9toLxJHYxU677fez-13" target="CVDc9toLxJHYxU677fez-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-34" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CVDc9toLxJHYxU677fez-14" target="CVDc9toLxJHYxU677fez-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-35" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.12;rounded=0;" edge="1" parent="1" source="CVDc9toLxJHYxU677fez-15" target="CVDc9toLxJHYxU677fez-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="1697" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-36" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.85;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="CVDc9toLxJHYxU677fez-10" target="CVDc9toLxJHYxU677fez-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="1185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-37" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="CVDc9toLxJHYxU677fez-16" target="CVDc9toLxJHYxU677fez-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVDc9toLxJHYxU677fez-38" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=1;entryY=0.32;rounded=0;" edge="1" parent="1" source="CVDc9toLxJHYxU677fez-17" target="CVDc9toLxJHYxU677fez-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="1697" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

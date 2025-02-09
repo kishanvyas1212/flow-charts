@@ -1,0 +1,46 @@
+
+graph TD
+  A[Activate Pay Per Post Addon] --> B[Display 'Manage Paid Post' Left Menu]
+  B --> C[Click 'Manage Paid Post' - Display Paid Post List]
+  C --> D[Click 'Add Paid Post']
+
+  D --> E{Is Paid Post Page Set in General Settings?}
+  E -->|No| F["Notice: 'You don't have created paid post type membership setup...'"]
+  F --> G[Create Paid Post Page with Shortcode]
+  G --> D
+
+  E -->|Yes| H[Display Content Type - Default 'Page']
+  H --> I[Select Page - Search & Choose Page]
+
+  I --> J[Select Post Type - Default 'Buy Now']
+  J --> K[Enter Paid Post Amount]
+
+  K --> L[Select Duration Type - Default 'Lifetime']
+  L --> M{Is 'Fixed Duration' Selected?}
+  M -->|Yes| N[Show Field to Select Duration]
+  M -->|No| O[Skip Duration Selection]
+
+  J --> P{Is 'Free Post' Type Selected?}
+  P -->|Yes| Q[Hide Plan Amount & Duration]
+  P -->|No| K
+
+  J --> R{Is 'Subscription/Recurring' Post Selected?}
+  R -->|Yes| S[Display Payment Cycles Section]
+  S --> T[Enter Cycle Label, Amount, Billing Cycles, Recurring Time]
+  T --> U[Click 'Add' - Add Another Payment Cycle]
+
+  H --> V[Alternative Content Switch]
+  V --> W{Is Alternative Content Enabled?}
+  W -->|Yes| X[Show 'Enter Alternative Content' Text Area]
+  X --> Y[Allow Text & Shortcodes]
+
+  N & O & Q & U & Y --> Z[Save Paid Post - Restrict Selected Pages, Posts, and Other Types]
+
+%% Styling
+classDef process fill:#a2c3fc,stroke:#333,stroke-width:2px;
+classDef decision fill:#ffcccb,stroke:#333,stroke-width:2px;
+classDef endNode fill:#d3d3d3,stroke:#333,stroke-width:2px;
+
+%% Apply styles
+class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z process;
+class Z endNode;
