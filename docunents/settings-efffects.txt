@@ -1,0 +1,96 @@
+General Settings:
+General Option
+1. Hide Admin Bar:
+Switch ON 
+Impact: Hide admin bar front side except selected roles 
+Switch OFF
+Impact: Not hide Admin bar for any user
+
+2. Rename wp-admin
+Switch ON
+Impact: Worpdress all functionality, it change wp-admin to any custom so need to check every page, every AJAX,
+
+3. Hide wp-login.php
+Switch ON
+Impact: Hide the wp-login.php, only allow to login with armember form 
+
+4. Hide register link
+Switch ON
+Impact: Hide register link on wp-login.php
+
+5. Disable ARMember styling on wp-login page	
+Switch ON
+Impact: It hide armember styling on wp-login.php page
+
+6. Auto Lock Shared Account
+Switch ON
+impact: On front side not allow to login into multiple browser, on login other automatically logout in first,
+
+7. Enable Gravatars?	
+
+8. Allow image cropping	
+Switch On
+Impact: Allow to crop the image 
+Switch OFF
+Impact: add Image without cropping
+where? : manage Member -> Add/Edit member -> Upload Avatar and profile, Profile & directories -> Add/Edit profile -> Default Cover image,
+Front Side: Create/edit member, Member profile -> Avatart and Profile cover
+
+
+9. Enable Spam Protection
+Switch ON
+Impact: Protect from spamming,
+How it works ? : in form passing one parameter no value at bottom that checks the spam
+Switch OFF
+Impact: It won't check the parameter, allow spamming
+Where ?: Front side: Register, Edit profile, Login, Forgot Password, change password, signup with plan purchase
+
+10. New user approval	
+Option: Automatic Approve 
+Impact: it default created user status to active
+Where ? : Register, Social Login (if not exist then register), signup with plan purchase 
+
+Option: Email verified approve
+Impact: It default mark created user status to pending, and sent email notification to user
+Where ? : Admin side: Manage Member -> hover to member -> Display Email Notification icon, Email notification -> Added two email notifications like Email Verified and Email Verification, Multi-language addon -> Translate Email notifications
+Front side: Register, Social Login (if not exist then register), signup with plan purchase 
+
+Option: Admin Approval 
+Impact: It default mark created user status to pending, and  it get active only when admin change the status from Manage Member page
+Where? : Admin side: Manage Member -> hover to member -> Display Email Notification icon, Email Notification -> Manual User Activation, Multi-language Addon -> Translate Email notification
+
+11. Default currency
+Selected Currency
+impact: Payment gateways: it remains enable payment gateways that supports the currency and rest payment gateways default disabled
+Where? : Mainly General Settings > Payment gateways, Configure plan + sign page, signup with plan purchase, Throught all pages where display currency like manage member, manage plan, payment history, manage subscription, front side current membership, payment history,
+
+12. Profile Permalink Base
+Selection Username and userID 
+Where ?: Front side when click on member from member directory, the create user profile link either contains the username or userid as per selection 
+
+13. Load JS & CSS in all pages
+Switch OFF 
+Impact: ARMember Js and CSS won't load on every page, so it impact with other plugins and Theme 
+Switch ON
+Impact: ARMember JS and CSS will load on each page, so it impact with other plugins and Theme 
+
+14. Help us improve ARMember by sending anonymous usage stats => Not impact any where, just enable the cron to sent the data to armember site
+
+15. Badge icon size (Pro Functionality)
+
+Section: Email Settings
+16. From/Reply to name,	
+Input: Allow to add the from/reply name on email 
+impact where? : All email notification to member front side and received to admin, General Settings > Debug Log > Email logs
+
+17. From/Reply to email	
+Input: Allow to add the from/reply email
+impact where? : All email notification to member front side and received to admin, General Settings > Debug Log > Email logs
+
+18. Admin email	
+Input: Default admin user email
+Impact: it will receive all armember admin email notifications
+How:  All email notifications are sending to Admin will sent on selected email address
+
+
+
